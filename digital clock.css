@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/035/919/293/non_2x/ai-generated-spring-season-with-colorful-flowers-and-trees-in-a-pretty-meadow-or-field-ai-generated-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clock{
+    height: 70px;
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 3px 15px ;
+    border-radius: 6px;
+    padding: 20px;
+   
+}
+.clock h1{
+  font-size: 3rem;  
+  font-weight: 700;
+}
+.clock span{
+    position: relative;
+    top: -40%;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 5px;
+}
